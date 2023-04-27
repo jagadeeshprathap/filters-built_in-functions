@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aquamarine;">
+    <center style="border: 4px;">
+        <h1 style="color: rgb(89, 0, 255);">Built_in_filters</h1>
+        <h1>{{data}}</h1>
+        <h1>{{data|upper}}</h1>
+        <h1>{{data|lower}}</h1>
+        <h1>{{data|length}}</h1>
+        <h1>{{data|title}}</h1>
+        <h1>{{data|slice:10}}</h1>
+        <h1>{{data|capfirst}}</h1>
+        <h1>{{data|truncatewords:3}}</h1>
+        <h1>{{data|truncatechars:5}}</h1>
+        <h2> {{dt|date:'Y M l'}}</h2>
+
+        <h2>I have {{c}} cat{{c|pluralize}}</h2>
+   
+        <h2>I have {{c}} mango{{c|pluralize:'es'}}</h2>
+
+        <h2>{{dt|date:'j'}}</h2>
+        <h2>{{dt|date:'s'}}</h2>
+        <h2>{{dt|date:'m'}}</h2>
+        <h2>{{dt|date:'f'}}</h2>
+        <h2>{{dt|date:'F'}}</h2>
+        <h2>{{dt|date:'y'}}</h2>
+        <h2>{{dt|date:'Y'}}</h2>
+        <h2>{{dt|date:'H'}}</h2>
+        <h2>{{dt|date:'a'}}</h2>
+        <h2>{{dt|date:'i'}}</h2>
+    </center>
+</body>
+</html>
